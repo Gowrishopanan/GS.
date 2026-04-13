@@ -17,7 +17,7 @@ export default function Contact() {
     setStatus({ type: '', msg: '' });
 
     try {
-     const res = await axios.post('http://localhost:3001/api/contact', form);
+    const res = await axios.post('https://portfolio-backend-b8kf.onrender.com/api/contact', form);
       setStatus({ type: 'success', msg: res.data.message });
       setForm({ name: '', email: '', subject: '', message: '' });
     } catch (err) {
