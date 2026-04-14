@@ -173,7 +173,11 @@
 
 @media (max-width: 900px) {
   .hero { padding: 6rem 1.5rem 3rem; }
-  .hero-name { font-size: 1.8rem; letter-spacing: -0.5px; }
+  .hero-name { font-size: 1.35rem; letter-spacing: -0.3px; }
   .hero-bottom { flex-direction: column; gap: 2rem; }
   .hero-visual { display: none; }
+}
+
+@media (max-width: 480px) {
+  .hero-name { font-size: 1.2rem; letter-spacing: 0px; }
 }
